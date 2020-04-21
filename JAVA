@@ -1,0 +1,32 @@
+public class AlgoritmoJuego_Pikachu {
+public static void main(String[]args) {
+
+//Declaramos las variables de los objetos(NombreVida, Turnos, Ataque)
+int Pikachu_Vida=100; int Jigglypuff_Vida=100;
+int Ataque_Pikachu=55;
+int Ataque_Jigglypuff=45;
+int turnoP=1; //otra forma es crear variable turno y poner valor 1 o 0.
+int turnoJ=0; //Turno de Jigglypuff
+
+//Inicio de batalla Pokemon mediante condicional
+	if (turnoP==1) {   //Turno de Pikachu
+	Jigglypuff_Vida=Jigglypuff_Vida-Ataque_Pikachu;
+	System.out.println("Jigglypuff " + Jigglypuff_Vida + "%");
+	}
+	if(turnoJ==0)
+	Pikachu_Vida=Pikachu_Vida-Ataque_Jigglypuff;
+    System.out.println("Pikachu " + Pikachu_Vida + " %");
+    if (turnoP==1) {   //Turno de Pikachu
+    Jigglypuff_Vida=Jigglypuff_Vida-Ataque_Pikachu;
+    System.out.println("Jigglypuff " + Jigglypuff_Vida + "%");
+    }
+     if (Pikachu_Vida>=0) {
+     System.out.println("*'*'*Gano Pikachu!!!*'*'*");
+    }
+     
+     /*
+      * 
+      */
+}
+}
+     
