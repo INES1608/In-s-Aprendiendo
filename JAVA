@@ -24,9 +24,6 @@ int turnoJ=0; //Turno de Jigglypuff
      System.out.println("*'*'*Gano Pikachu!!!*'*'*");
     }
      
-     /*
-      * 
-      */
 }
 }
      
